@@ -1,0 +1,56 @@
+﻿body {
+    direction: ltr;
+    background-image: url(Images/swBackground.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #fcd000;
+}
+
+table, th, tr, td {
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+ul#menu li {
+    display: inline;
+    margin: 60px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.FUNCTION {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+#MAIN {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: black;
+}
+
+.sticky-div {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+}
+
+.start {
+    height: 100px;
+}
